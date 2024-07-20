@@ -1,0 +1,215 @@
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 85px;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  .ri-search-line {
+    display: none;
+  }
+
+  .nav-links {
+    padding: 0px;
+  }
+
+  .nav-links > a:hover {
+    background-color: #6bb7be;
+    color: white;
+  }
+
+  .nav-links >a {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .respo-testi {
+    width: 80%;
+  }
+
+  .footer-respo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap
+  }
+
+  .footer-1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .box {
+    padding: 20px 0px;
+    width: 100%;
+  }
+
+  .box > i {
+    font-size: 25px;
+  }
+
+  .spacing {
+    padding: 20px 15px;
+    width: 100%;
+    text-align: left;
+  }
+
+  .respo-newslatter {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .respo-contact {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .desc {
+    width: 100%;
+  }
+
+  .slider-respo {
+    flex-direction: column-reverse;
+    padding: 3%;
+  }
+
+  .slider-img {
+    width: 100%;
+  }
+  .contact {
+    width: 90%
+  }
+
+  form {
+    width: 90%;
+  }
+
+  .gmap {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1199px) {
+  .w-lg {
+    width: 33.33%;
+  }
+
+  .respo-testi {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.respo-img {
+  aspect-ratio: 1/1;
+  border: 2px;
+}
+
+.footer-respo {
+  width: 100%;
+  padding: 20px;
+}
+
+.respo-newslatter {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.respo-contact {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.contact {
+  width: 90%
+}
+
+form {
+  width: 90%;
+}
+
+.gmap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gmap > iframe{
+  width: 90%;
+}
+
+}
+
+@media (max-width: 767px) {
+  .w-sm {
+    width: 50%;
+  }
+
+  .respo-contact {
+    width: 100%;
+  }
+
+  .respo-testi {
+    width: 80%;
+  }
+
+  .respo-about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-img {
+    width: 100%;
+  }
+
+  .about-data {
+    width: 80%;
+  }
+}
+
+@media (max-width: 575px) {
+  .w-s {
+    width: 100%;
+    /* text-align: center; */
+  }
+
+  .respo-testi {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.respo-img {
+  aspect-ratio: 1/1;
+  border: 2px;
+}
+
+}
